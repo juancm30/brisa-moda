@@ -1,1 +1,19 @@
 @import "tailwindcss"; 
+
+/* Colores y tipografia propios de la marca */
+@theme {
+    --color-marca-50: #fdf3ef;
+    --color-marca-100: #fbe3d9;
+    --color-marca-500: #e76f51;
+    --color-marca-600: #d1583b;
+    --color-marca-700: #1d6f77;
+    --color-marca-900: #12474c;
+    --font-titulo:Georgia, "Times New Roman",serif;
+
+}
+
+/* DEsplazamiento suave al pulsar los enlaces del menu */
+
+html {
+    scroll-behavior: smooth;
+}
